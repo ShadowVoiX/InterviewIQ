@@ -23,7 +23,7 @@ class HistoryScreen extends StatelessWidget {
     final confirm = await showDialog(
       context: context,
       builder: (_) => AlertDialog(
-        title: const Text("Delete Interview?"),
+        title: const Text("Delete the Interview?"),
         content: const Text(
           "This action cannot be undone. Do you want to continue?",
         ),
