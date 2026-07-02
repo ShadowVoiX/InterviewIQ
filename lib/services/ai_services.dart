@@ -40,7 +40,6 @@ Return ONLY valid JSON (no markdown, no text):
         }),
       );
 
-      // ❌ Handle HTTP failure
       if (response.statusCode != 200) {
         return {
           "score": 0,
@@ -53,7 +52,6 @@ Return ONLY valid JSON (no markdown, no text):
 
       final content = data["choices"]?[0]?["message"]?["content"];
 
-      // ❌ Handle null AI response
       if (content == null) {
         return {
           "score": 0,
@@ -62,7 +60,6 @@ Return ONLY valid JSON (no markdown, no text):
         };
       }
 
-      // ❌ Try safe JSON parsing
       try {
         return jsonDecode(content);
       } catch (e) {
