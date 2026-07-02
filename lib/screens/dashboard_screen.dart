@@ -162,7 +162,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                           ),
                         );
                       },
-                      icon: const Icon(Icons.play_arrow),
+                      icon: const Icon(Icons.play_arrow_rounded),
                       label: const Text("Start New Interview"),
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.white,
