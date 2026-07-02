@@ -95,7 +95,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       const Icon(
-                        Icons.mic_none_rounded,
+                        Icons.school,
                         size: 90,
                         color: Colors.white,
                       ),

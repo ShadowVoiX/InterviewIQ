@@ -80,7 +80,7 @@ class _RoleSelectionScreenState extends State<RoleSelectionScreen> {
                       ),
                     ),
                     trailing: selected
-                        ? const Icon(Icons.check_circle, color: Colors.blue)
+                        ? const Icon(Icons.check_circle_rounded, color: Colors.blue)
                         : null,
                     onTap: () {
                       setState(() {
