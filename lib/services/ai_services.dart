@@ -63,7 +63,6 @@ Return ONLY valid JSON (no markdown, no text):
       try {
         return jsonDecode(content);
       } catch (e) {
-        // fallback if AI returns text instead of JSON
         return {
           "score": 0,
           "feedback": "Failed to parse AI response",
