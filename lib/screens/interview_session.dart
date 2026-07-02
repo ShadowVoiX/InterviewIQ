@@ -251,7 +251,7 @@ class _InterviewScreenState extends State<InterviewScreen> {
                   child: Text(
                     answers[currentIndex].isEmpty
                         ? currentTranscript.isEmpty
-                            ? "Tap mic and start speaking..."
+                            ? "Tap the mic and start speaking..."
                             : currentTranscript
                         : answers[currentIndex],
                     style: const TextStyle(fontSize: 16),
