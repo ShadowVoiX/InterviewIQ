@@ -12,8 +12,7 @@ Task Assigned:
 3. History, history detail, ai report (Nizar Farhan bin Rosnizam)
 4. Edit profile,role selection, instructions, profile (Ahmad Abid Darwish bin Khain Arifuddin)
 
-Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619
-PART 1: PROJECT IDEATION & INITIATION
+PART 1: PROJECT IDEATION & INITIATION (Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619)
 
 1.0 Project Ideation & Initiation
 
@@ -61,7 +60,7 @@ InterviewIQ: An Intelligent Mobile Interview Preparation Application Using Flutt
   
   Cloud services, Authentication, Cloud Firestore were all are implemented in Firebase. This eliminates the need for a separate back-end server, and makes managing user accounts and interview records much easier, as Firebase is a Backend-as-a-Service that manages authentication, data storage, and security rules without requiring much configuration on the server (Saraf, 2022). The AI part is integrated by external language model APIs that process the questions and judge the answers.
   
-1.6 Features and Functionalities
+1.6 Features and Functionalities ( Ahmad Abid Darwish bin Khain Arifuddin 2214919)
 
   InterviewIQ has some features that facilitate interview preparation. To gain access to their personal data securely, users have to register or log in with the help of Firebase Authentication. Firebase Authentication supports secure sign-in using email, phone number, and other credential types (Saraf, 2022). Once they log in, they are directed to the Dashboard, where they can initiate a new interview or review previous interviews.
   
@@ -85,15 +84,13 @@ PART 2: REQUIREMENT ANALYSIS & PLANNING
 
 2.0 Requirement Analysis & Planning
 
-
-2.1 Requirement Analysis
+2.1 Requirement Analysis (Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619)
 
   Requirement analysis is crucial in the Software Development Life Cycle (SDLC) as it establishes the functional and technical foundation of InterviewIQ. At this phase the needs of the application were identified to ensure that the system is practical, secure and fit its intended users. This process creates a dynamic baseline that enables engineering teams to maximize the utilization of their resources and make sure that ongoing changes to the software meet the needs of the users in the real world (Soureya et al., 2025). User needs have been analysed, technologies have been considered, the system structure has been determined, and the possibilities of using artificial intelligence, cloud storage, and authentication services have been explored.
 
   InterviewIQ is built to enable users to register safely, log into their accounts, practice mock interviews for job roles selected, get AI-generated interview questions, detailed feedback, and store interview records for future review. The usability, reliability, security and responsiveness are the key aspects that these requirements highlight. The analysis will ensure that each component of the system is used to create a realistic and personalised interview preparation.
 
-Nik Ameen bin Abidin 2222881
-2.2 Functional Requirements
+2.2 Functional Requirements (Nik Ameen bin Abidin 2222881)
 
   The functional requirements outline the key features of InterviewIQ. It is necessary for users to be able to sign up through Firebase Authentication using email and password.Users need to be able to register through Firebase Authentication using email and password. Users should be able to log in securely and be able to access their own interview history stored in Cloud Firestore. This guarantees that interview records are kept confidential and associated with the right interview.
 
@@ -103,8 +100,7 @@ Nik Ameen bin Abidin 2222881
 
   Once the application has been evaluated, it will provide an overall summary with a performance score, a communication quality score, technical understanding score, confidence level score, and recommendations for improvement. Once the interview has been completed, the report is automatically saved in Cloud Firestore, where users can view or remove it at any time.
 
-Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619
-2.3 Non-Functional Requirements
+2.3 Non-Functional Requirements (Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619,  Ahmad Abid Darwish bin Khain Arifuddin 2214919)
 
   InterviewIQ also has to have several non-functional requirements that will make it a good user experience. There should be no excessive lag time during screen transitions and AI communication. The loading indicators depict that the AI is being evaluated and processing is taking place, as it requires an internet connection.
 
@@ -114,8 +110,7 @@ Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619
 
   Usability is also important. The user interface is designed according to the Material Design, which offers familiar navigation, consistent layout and user interaction in all screens. The ability to scale was also taken into consideration, because Firebase can handle more users without the need of significant changes to the system architecture.
 
-Nik Ameen bin Abidin 2222881
-2.4 Technical Feasibility Assessment
+2.4 Technical Feasibility Assessment (Nik Ameen bin Abidin 2222881)
 
   Prior to development the technical feasibility of InterviewIQ was evaluated. Flutter was chosen as the primary framework due to its ability to write one code for both mobile platforms. According to empirical framework assessments, Flutter has consistently been delivering highly competitive user interface rendering times and simple CPU efficiency for mobile systems as compared to native apps (Lin, 2026). This directly decreases development time and maintenance.
 
@@ -123,8 +118,7 @@ Nik Ameen bin Abidin 2222881
 
   An external Large Language Model API provides the functionality of Artificial Intelligence. The Flutter app sends questions to the AI service via secure HTTP connections; question generation and answer checking without heavy machine learning models running on the phone. In this way, device resources are conserved and detailed feedback to the user is still provided. In general, the chosen technologies are compatible and applicable for development of an intelligent interview coaching application.
 
-Nik Ameen bin Abidin 2222881, Nizar Farhan bin Rosnizam 2222619
-2.5 Back-End Assessment
+2.5 Back-End Assessment (Nik Ameen bin Abidin 2222881, Nizar Farhan bin Rosnizam 2222619)
 
   The reason for choosing Firebase as the cloud backend for InterviewIQ is that it has the features of authentication, data storage, and synchronization. Firebase Authentication is used to generate a unique User ID for each user, which is then stored and retrieved in Cloud Firestore to keep track of interview records.
 
@@ -132,15 +126,13 @@ Nik Ameen bin Abidin 2222881, Nizar Farhan bin Rosnizam 2222619
 
   Because Firestore is a NoSQL document database, it stores interview data in a flexible structure that is easy to expand. This allows it to be used in future features such as analytics or multimedia support.
 
-Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891
-2.6 Packages and Plugins
+2.6 Packages and Plugins (Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891)
 
   firebase_core was used to connect Flutter and Firebase services; firebase_auth to register, log in, and log out users; cloud_firestore to store interview history and user data; and flutter_dotenv to store API keys outside the source code, which keeps them secure.
 
   The http package allows communication with the AI service used for generating questions and evaluating the answers. Other packages include state management, loading animations, icons and interface enhancements. All selected packages are actively developed and compatible with Flutter SDK, so it gives stability.
 
-Nizar Hakim bin Mohd Haffiz 2224891
-2.7 Platform Compatibility
+2.7 Platform Compatibility (Nizar Hakim bin Mohd Haffiz 2224891)
 
   The main reason of the creation of InterviewIQ is to make it available primarily for Android smartphones as they are widely used among students and job seekers. However, responsive layouts ensure that the app remains functional on various screen sizes and device configurations with Flutter.
 
@@ -148,8 +140,7 @@ Nizar Hakim bin Mohd Haffiz 2224891
 
   The interface’s design is based on Material Design, which facilitates easy interaction on touch devices. Optimized for mobile use, buttons, forms, scrolling and navigation are optimized without sacrificing the tablet experience.
 
-Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619
-2.8 Logical Design
+2.8 Logical Design (Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619)
 
   The logical design illustrates the interactions between the user, mobile app, Firebase services, and AI system. User logs in via Firebase Authentication and then accesses the dashboard. Once you choose a job role, the app asks the AI service for interview questions. The user responds to the questions and their answers are sent for evaluation. The AI responds to the user with feedback, which is displayed to the user and saved to Cloud Firestore for subsequent use.
   
@@ -164,8 +155,7 @@ Figure 2.2: Screen Navigation Flow
 
 <img width="520" height="605" alt="image" src="https://github.com/user-attachments/assets/d8272ac7-e0f2-44a5-9e20-a5957752fbc9" />
 
-Nizar Farhan bin Rosnizam 2222619
-2.9 Project Planning
+2.9 Project Planning (Nizar Farhan bin Rosnizam 2222619)
 
   Completion of InterviewIQ within the project timeframe and maintaining the quality of the product will require proper planning. The project is based on SDLC process, which includes initiation, requirement analysis, design, development, testing, debugging, documentation and presentation.
 
@@ -182,15 +172,13 @@ PART 3: PROJECT DESIGN
 
 3.0 Project Design
 
-Nizar Hakim bin Mohd Haffiz 2224891
-3.1 Introduction
+3.1 Introduction (Nizar Hakim bin Mohd Haffiz 2224891,  Ahmad Abid Darwish bin Khain Arifuddin 2214919)
 
   In project design, the requirements collected during the analysis phase are transformed into the plan of how the system will be developed. In case of a mobile application such as InterviewIQ, the design should be able to serve not only for functionality but also usability and simplicity of use so that users can concentrate on conducting interviews. As the purpose of the application is to assist users with employment interviews preparation, the design should be clear, efficient and professional.
   
   InterviewIQ has been designed based on the principles of Material Design provided by Google which includes simplicity, consistency, accessibility, and responsiveness. Such an approach provides users with easy navigation through the application while at the same time ensuring a modern design of it. Special attention has been paid to the design of screens, navigation, typography, space and color.
 
-Nizar Hakim bin Mohd Haffiz 2224891
-3.2 User Interface (UI) Design
+3.2 User Interface (UI) Design (Nizar Hakim bin Mohd Haffiz 2224891)
 
   InterviewIQ’s user interface was designed on Flutter’s widget-based development model that allows designing responsive UIs for various Android phones. The widgets developed by Flutter allow building visually appealing and responsive UIs that feature good visual consistency and high performance.
 
@@ -198,8 +186,7 @@ Nizar Hakim bin Mohd Haffiz 2224891
 
   Readability, correct space management, and easy-to-use input fields were used during the creation of the application’s user interface. Responsive design principles were applied to ensure the adaptability of the interface to various smartphones' screens.
 
-Nik Ameen bin Abidin 2222881
-3.3 User Experience (UX) Design
+3.3 User Experience (UX) Design (Nik Ameen bin Abidin 2222881)
 
   Ease of use and efficiency were key elements during the application's design due to the nature of the product which should be convenient for its users (Liu, 2025). InterviewIQ employs an effective workflow that minimizes the number of actions necessary to perform any task within the application. The user logs in or registers, opens the dashboard and starts an interview or examines previous interviews.
 
@@ -209,16 +196,14 @@ Nik Ameen bin Abidin 2222881
 
   History option adds value to the product by giving the possibility to examine previous interviews and get an idea about user's progress.
 
-Nizar Hakim bin Mohd Haffiz 2224891
-3.4 Design Consistency
+3.4 Design Consistency (Nizar Hakim bin Mohd Haffiz 2224891)
 
   It is significant as it enables users to get acquainted with the application quickly. All screens of InterviewIQ have the same visual consistency.
 A consistent color scheme has been used for the whole application in order to help build the brand and provide better readability. The primary actions in InterviewIQ will have the same base color, while secondary actions have a neutral background color. Typography is consistent across headers, bodies, and buttons so that it will be easier for users to understand the structure of the information.
 
   Icons have been chosen from Flutter’s Material Icons library according to Android design standards. Form inputs, buttons, and navigational elements on different screens are consistent as well as it eliminates any ambiguity and simplifies the application interface. The InterviewIQ brand is present in the splash page, login page, dashboard, interviews pages, feedbacks pages, and history section of the application.
 
-Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619
-3.5 Screen Design
+3.5 Screen Design (Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619,  Ahmad Abid Darwish bin Khain Arifuddin 2214919)
 
   Login and Registration pages are secured using Firebase Authentication feature. Input fields, validation messages and authentication buttons only compose those screens; any user can receive error message instantly if some required information has been filled out wrongly.
 
@@ -233,15 +218,13 @@ Interview Session screen is a heart of the application, where user sees an inter
 
   Finally, the History screen retrieves the old interview sessions stored in Firebase Cloud Firestore. The user can either go through the old report or remove the report that is no longer needed.
 
-Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619
-3.6 Navigation Design
+3.6 Navigation Design (Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619)
 
   The navigation pattern of InterviewIQ is the hierarchical pattern because of its similarity to how mobile applications work. Users navigate from authentication through the dashboard to the chosen feature of the application. There is a sequential order of actions during the interview process: question answering, waiting for AI analysis, looking at the feedback, and summary.
   
   This type of navigation minimizes the number of screens that a user needs to go through in order to find what he or she needs and always allows the user to understand where he or she is inside the application. Navigation controls and buttons are well labeled and positioned consistently, which makes it less likely to get lost.
 
-Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619
-3.7 Mobile Design Principles
+3.7 Mobile Design Principles (Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619,  Ahmad Abid Darwish bin Khain Arifuddin 2214919)
 
   The app InterviewIQ uses several essential mobile design principles. It has simplicity because it displays necessary data for every step only. Visibility principle is fulfilled using appropriate text, spacing, and colors, which makes it easy to use in any lighting.
 
@@ -251,15 +234,13 @@ Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan 
 
   Error prevention is another principle that is taken into consideration in the design of this application. There are no empty fields, clear messages when the login information is incorrect and user can not accidentally delete his history (Liu, 2025).
 
-Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619
-3.8 Design Evaluation
+3.8 Design Evaluation (Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619,  Ahmad Abid Darwish bin Khain Arifuddin 2214919)
 
   In its final version, the InterviewIQ project is a combination of the latest mobile UI trends and AI features presented in a comprehensible and efficient way. The application strikes a balance between usability and efficiency through providing organized and understandable feedback produced by the system. Material Design, responsive Flutter widgets, Firebase integration, and navigation create the atmosphere of professional design in the app.
 
   The design helps prepare efficiently for interviews due to the fact that all the user needs to do is practice instead of dealing with complex interface elements. The design of each screen was made with usability, accessibility, and consistency in mind, and InterviewIQ can act as an educational platform for students and graduates.
 
-Nizar Farhan bin Rosnizam 2222619
-3.9 Summary
+3.9 Summary (Nizar Farhan bin Rosnizam 2222619)
 
   Project design involved defining the look and feel of the system and the interactions within InterviewIQ. Due to the user interface, experience, consistency, and responsiveness incorporated during design, InterviewIQ creates an easy to use environment to prepare interviews. Project design lays the foundation for implementation whereby the planned screens are designed and incorporated in the mobile application using Flutter, Firebase, and Artificial Intelligence technology.
 
@@ -267,36 +248,31 @@ PART 4: PROJECT DEVELOPMENT
 
 4.0 Project Development
 
-Nik Ameen bin Abidin 2222881
-4.1 Introduction
+4.1 Introduction (Nik Ameen bin Abidin 2222881)
 
   The development stage converted the project design and planning artifacts to a complete and functional mobile application. In the case of InterviewIQ, the following components were incorporated during the development process: implementing the user interface, linking Firebase services, incorporating authentication functionality, designing interview-related features, integrating AI services, and testing for stability and usability. The process of development was done using the modular approach whereby each component would be developed, tested, and maintained individually before putting together the whole application.
 
   Flutter framework was chosen for development due to its ability to develop applications in an efficient manner in a cross-platform environment. Firebase services were used to incorporate authentication and data storage while AI services were used to develop questions and evaluate the answers of the users. In the entire process of development, the key factors included usability, security, scalability, maintainability, and user experience.
 
-Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619
-4.2 System Architecture
+4.2 System Architecture (Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619)
 
   The InterviewIQ system adopts a client-cloud architectural design that has three key elements. They include the Flutter mobile application, Firebase services, and the AI service. The Flutter mobile application serves as the user interface component, Firebase authentication deals with login and sign-up processes, while Cloud Firestore handles storing interview responses and user information. Finally, the AI service takes care of creating interview questions and evaluating answers from the users.
 
   Once a user begins an interview, the mobile application passes the job role to the AI service. Once the interview questions are generated, the user will see them on their mobile application and give their responses. As soon as the interview ends, the answers are passed to the AI service. The feedback provided by the AI service is shown to the user and saved in Firestore (Tan et al., 2026).
 
-Nizar Hakim bin Mohd Haffiz 2224891
-4.3 Development Environment
+4.3 Development Environment (Nizar Hakim bin Mohd Haffiz 2224891)
 
   The application has been built through Flutter framework and Dart language. The Visual Studio Code software has been employed for editing code, as well as for debugging and managing files, whereas the Android Studio program has been used for testing through emulators and configuring Android SDK. The Firebase Console service has been utilized for creating and managing Authentication and Cloud Firestore services.
 
   In order to increase security, API keys and configuration values have been saved in environment files, rather than being embedded into the source code directly. GitHub has been applied for version control and source code management.
 
-Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619
-4.4 Modular Code Structure
+4.4 Modular Code Structure (Nik Ameen bin Abidin 2222881, Nizar Hakim bin Mohd Haffiz 2224891, Nizar Farhan bin Rosnizam 2222619)
 
   Project structure allows for easy maintenance of the source code through the division of project into different modules. This is done by keeping the different screens and functionalities in different files depending on their functionality.
 
   The module for authentication will be used for handling registration and login processes for users. The module for interviews will contain functionalities of question generation, answer gathering, processing through AI, and displaying of feedback. History module will handle getting and storing of historical interview records. Some utility files will be created to store reusable code for handling API calls, database queries, and data modeling.
 
-Nizar Hakim bin Mohd Haffiz 2224891
-4.5 User Authentication Implementation
+4.5 User Authentication Implementation (Nizar Hakim bin Mohd Haffiz 2224891)
 
   For secure login and registration features, I have made use of Firebase Authentication. The users will be able to register their account and sign-in by providing their email ID and password credentials. In the registration feature, all the necessary validation checks are performed for ensuring that all the required details are provided and also that the email ID is formatted correctly.
 
@@ -304,86 +280,75 @@ Nizar Hakim bin Mohd Haffiz 2224891
 
   The error handling part helps in handling the issues related to authentication including the errors like invalid password, duplicate account, wrong email ID, etc.
 
-Nizar Hakim bin Mohd Haffiz 2224891
-4.6 Dashboard Development
+4.6 Dashboard Development (Nizar Hakim bin Mohd Haffiz 2224891)
 
   Dashboard is the primary navigation screen of InterviewIQ. Once the user logs into the system, they are redirected to the dashboard screen, from which the user can create an interview or even check their past interviews. The screen design was intended to make sure the user can easily navigate the application’s main features. 
 
   Flutter routing is used in order to allow the smooth and consistent movement from one screen to another. The dashboard also provides user information in its simplest form and is the primary starting point for the entire application.
 
-Nik Ameen bin Abidin 2222881
-4.7 Interview Question Generation
+4.7 Interview Question Generation (Nik Ameen bin Abidin 2222881)
 
   One of the key features of InterviewIQ is the interview questions that are generated via AI technology. In this case, the user picks a desired job role, and then the application uses AI to come up with interview questions related to this particular job role (Luo, 2025). 
 
   This approach ensures that the interview process is personalized according to the user's preferred career path. As opposed to the traditional method, where only limited number of questions are present in the question bank, AI interview questions ensure variety and prevent users from doing repeated exercises.
 
-Nik Ameen bin Abidin 2222881
-4.8 Interview Session Implementation
+4.8 Interview Session Implementation (Nik Ameen bin Abidin 2222881)
 
   The questions from the session screen appear one at a time, with a text box where the user is expected to key in the response. This allows the users to respond to questions separately without getting confused with more questions being displayed all at once.
 The users navigate the session using navigational controls, and their responses are recorded in the process, and then sent for analysis later on. State management technique has been implemented to make sure that answers are saved even when the user changes screens and navigates through the screen controls.
 
-Nik Ameen bin Abidin 2222881
-4.9 AI Processing and Feedback Generation
+4.9 AI Processing and Feedback Generation (Nik Ameen bin Abidin 2222881)
 
   Once the interview is completed, the user’s answers are submitted to the AI program to be analyzed. In order to let users know what is happening and to avoid re-submitting their answers, an upload window was created.
 
   In order to analyze user’s answers, the AI program uses several criteria, such as clarity, relevancy, completeness, professionalism, and technical knowledge. The user will receive comprehensive feedback in response, including the areas where he/she was successful and those where there is room for improvement (Thai et al., 2025).
-Such feedback is more valuable for users than just a grade, as it provides them with some practical advice about how to improve the performance in the future interviews.
+  
+  Such feedback is more valuable for users than just a grade, as it provides them with some practical advice about how to improve the performance in the future interviews.
 
-Nik Ameen bin Abidin 2222881
-4.10 Question Feedback Screen Development
+4.10 Question Feedback Screen Development (Nik Ameen bin Abidin 2222881)
 
   Once the interview is completed, the user’s answers are submitted to the AI program to be analyzed. In order to let users know what is happening and to avoid re-submitting their answers, an upload window was created.
 
   In order to analyze user’s answers, the AI program uses several criteria, such as clarity, relevancy, completeness, professionalism, and technical knowledge. The user will receive comprehensive feedback in response, including the areas where he/she was successful and those where there is room for improvement.
 Such feedback is more valuable for users than just a grade, as it provides them with some practical advice about how to improve the performance in the future interviews.
 
-Nik Ameen bin Abidin 2222881
-4.11 Summary Screen Development
+4.11 Summary Screen Development (Nizar Farhan bin Rosinzam 2222619)
 
   The Summary page provides a holistic view of the interview performance. It includes the output from all questions and highlights important details like the areas of strength, weakness, communication skills, technical skills, and suggestions for improvement.
 
   The Summary page helps users gain insight into their performance without analyzing each individual answer. It is particularly helpful for users who are experiencing recurring problems in many answers. It offers users a clear snapshot of their performance in the interview session.
 
-Nizar Farhan bin Rosnizam 2222619
-4.12 Interview History Management
+4.12 Interview History Management (Nizar Farhan bin Rosnizam 2222619)
 
   Interview history is stored in Cloud Firestore in order for users to see their progress through time. Upon completion of each interview, selected role, questions, answers, feedback, summary, and completion date are saved in the user’s Firestore collection.
 
   History screen loads the saved interviews and shows them in the form of a list. Users may access old interviews to check their results or remove interviews which they no longer require. There are dialogs to prevent any accidental deletion of records. This allows making InterviewIQ not only a good tool to practice but also learn through time.
 
-Nizar Farhan bin Rosnizam 2222619
-4.13 CRUD Operations Implementation
+4.13 CRUD Operations Implementation (Nizar Hakim bin Mohd Haffiz 2224891)
 
   The Cloud Firestore was chosen to back up CRUD operations in the application. The create operation helps store interview sessions in the database, the read operation enables viewing the history of interviews, and the delete operation deletes information that is not needed anymore.
   
 The update operation is somewhat limited in the current version of the application, however, the database architecture was created in such a way to make it easy to implement updates in the future. Firestore being document-oriented database is quite appropriate for keeping interview reports due to its flexible nature.
 
-Nizar Farhan bin Rosnizam 2222619
-4.14 Error Handling and Input Validation
+4.14 Error Handling and Input Validation (Nizar Farhan bin Rosnizam 2222619,  Ahmad Abid Darwish bin Khain Arifuddin 2214919)
 
   Error handling was included in the system for reliability and better user experience. Input validation ensures that users provide all the needed information when registering, signing in, and conducting interviews. Required fields are validated before any action, and if there is no valid data, then users get proper error messages.
   
   Network errors are also handled when Firebase or the AI system is not available. Rather than letting the system crash, meaningful error messages are displayed to the user. Loading screens and retries were also implemented to increase usability while experiencing network issues.
 
-Nizar Hakim bin Mohd Haffiz 2224891
-4.15 Packages and Plugin Integration
+4.15 Packages and Plugin Integration (Nizar Hakim bin Mohd Haffiz 2224891)
 
   Various Flutter packages were incorporated into the application to support its functioning. Firebase Core acts as a link between Flutter and Firebase, while Firebase Authentication and Cloud Firestore enable logins and storage of data respectively. Various HTTP packages were employed for communicating with the AI service.
 
   Other packages were included for loading animations, icons, state management, and user interface enhancements. All of the packages selected for integration were tested for their compatibility with the overall application. The selected packages turned out to be highly compatible and enabled faster development of the project (Vijayakumar, n.d.).
 
-Nizar Hakim bin Mohd Haffiz 2224891
-4.16 GitHub Collaboration and Version Control
+4.16 GitHub Collaboration and Version Control (Nizar Hakim bin Mohd Haffiz 2224891)
 
   GitHub was employed in managing the source code and changes done during the development process. The branching method was applied where new features and bug fixing were done on separate branches before merging with the main branch. This assisted in making the development process more organized while reducing chances of having errors in the application. 
 
   The commit history was utilized as a way of recording changes that took place during the development of the project. Should any problem arise, an old version of the code can be used whenever required. Code reviews and pull requests were also useful in improving the code quality.
 
-Nizar Farhan bin Rosnizam 2222619
-4.17 Testing and Debugging
+4.17 Testing and Debugging (Nizar Farhan bin Rosnizam 2222619, Nizar Hakim bin Mohd Haffiz 2224891,  Ahmad Abid Darwish bin Khain Arifuddin 2214919)
 
   Continuous testing was performed throughout the process of developing the application in order to assess the functionalities and stability of the system. Functional testing proved the proper work of authentication, interview creation, feedback, history, and navigation of the application. Integration testing was conducted to verify communication among Flutter, Firebase, and the AI service.
 
